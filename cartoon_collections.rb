@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
- planeteer_calls.collect {|w| w.capitalizes + "!"}
+ planeteer_calls.collect {|w| w.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls_long)
